@@ -30,11 +30,11 @@ module TestBench();
       
        $display("A = %b - B = %b, S = %b , Cout = %b", A, B, S, Cout);
 
-        A = 4'b0011; B = 4'b1101; // 1101 is -3 in 2's complement
+        A = 4'b0011; B = 4'b1101; 
         #10;
        $display("A = %b - B = %b, S = %b , Cout = %b", A, B, S, Cout);
 
-        // End simulation
+    
         $finish;
     end
 endmodule
