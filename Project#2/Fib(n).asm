@@ -1,11 +1,11 @@
 .data
-n:      .word 15
-output: .word 0 
+input:      .word 15        #input value
+output:     .word 0         #output value stored at address 0x10010000(+4) on data segment
 
 .text
 .globl fib
 fib:
-    lw $t0, n          # n 
+    lw $t0, input          # n 
     ble $t0, 1, base_return #if n <= 1, return
     
     sub $t1, $t1, $t1  # a = 0

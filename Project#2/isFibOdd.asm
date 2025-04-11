@@ -1,7 +1,7 @@
 .data
-input:      .word 7         #input
-Fib_output: .word 0          #Fibonacci nth number
-isFibOdd:   .word 0          #0 if even, 1 if odd
+input:      .word 9         #input
+Fib_output: .word 0         #Fibonacci nth number stored at address 0x10010000(+4) on data segment
+isFibOdd:   .word 0         #0 if even, 1 if odd  stored at address 0x10010000(+8) on data segment
 
 .text
 .globl main

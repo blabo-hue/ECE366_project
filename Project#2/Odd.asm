@@ -1,12 +1,12 @@
 .data
-n:      .word 1023
-output: .word 0 
+input:      .word 1023     #input value
+output:     .word 0        #output value stored at address 0x10010000(+4) on data segment
 
 .text
 .globl isodd
 
 isodd:
-    lw $t0, n          # n 
+    lw $t0, input          # n 
     
 loop:          
     beq $t0, 1, odd     #if n = 1, odd
