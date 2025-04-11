@@ -7,7 +7,6 @@ isFibOdd:   .word 0         #0 if even, 1 if odd  stored at address 0x10010000(+
 .globl main
 
 main:
-   
     lw $t0, input               #input value stored to t0
     ble $t0, 1, check_odd_loop  #if n <= 1, return
     sub $t1, $t1, $t1           #a = 0
@@ -26,8 +25,7 @@ fib_loop:
     move $t0, $t2               #get result of t2 and store to t0
     sw   $t0, Fib_output
     
-check_odd_loop:
-          
+check_odd_loop:    
     beq $t0, 1, fib_odd         #if nth number = 1, jump to fib_odd
     beq $t0, 0, fib_even        #if nth number =0, jump to fib_even
     subi $t0, $t0, 2            #n = n - 2
