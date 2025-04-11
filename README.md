@@ -35,8 +35,8 @@ How to run the program:
     View results in the data segment (comments indicate output location).
 
 Insights:
-  -The code on finding the nth Fibonacci number closely follows the logic of the pseudo-code by making i = n - 1, and loop until it reaches before 0. 
+  - The code on finding the nth Fibonacci number closely follows the logic of the pseudo-code by making i = n - 1, and loop until it reaches before 0. 
   
-  -Finding the odd number is much simplier since it just subtracts the given number by 2 and keeps repeating it until it reaches 1 or 0. If it is odd, it will always reach 1 when subtracted by 2 repeatedly before it hits 0, thus I coded a 
+  - Finding the odd number is much simplier since it just subtracts the given number by 2 and keeps repeating it until it reaches 1 or 0. If it is odd, it will always reach 1 when subtracted by 2 repeatedly before it hits 0, thus I coded a 
   condition to jump to Odd when it reaches the value of 1 or 0 first. 
   -Lastly, I combined the 2 program to create the final function isFibOdd(n) with some modifications to make it shorter.
