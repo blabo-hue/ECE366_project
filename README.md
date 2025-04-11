@@ -19,9 +19,9 @@ How to run the program:
 
 1. Download the the files from the given github link on Project#2 folder
 
-    (i) Fib(n) - finds the nth Fibonacci number.
-    (ii) Odd(n) - check if the given number is Odd(1) or Even(0).
-    (iii) isFibOdd(n) - computes the nth Fibonacci number and use that result to check if it is odd(1) or even(0).
+    - Fib(n) - finds the nth Fibonacci number.
+    - Odd(n) - check if the given number is Odd(1) or Even(0).
+    - isFibOdd(n) - computes the nth Fibonacci number and use that result to check if it is odd(1) or even(0).
  
 3. Open MARS and load the desired file.
    
@@ -36,7 +36,6 @@ How to run the program:
 
 Insights:
   - The code on finding the nth Fibonacci number closely follows the logic of the pseudo-code by making i = n - 1, and loop until it reaches before 0. 
-  
-  - Finding the odd number is much simplier since it just subtracts the given number by 2 and keeps repeating it until it reaches 1 or 0. If it is odd, it will always reach 1 when subtracted by 2 repeatedly before it hits 0, thus I coded a 
-  condition to jump to Odd when it reaches the value of 1 or 0 first. 
-  -Lastly, I combined the 2 program to create the final function isFibOdd(n) with some modifications to make it shorter.
+  - Finding the odd number is much simplier since it just subtracts the given number by 2 and keeps repeating it until it reaches 1 or 0. If it is odd, it will always reach 1 when subtracted by 2 repeatedly before it hits 0, thus I coded 
+    a condition to jump to Odd when it reaches the value of 1 or 0 first. 
+  - Lastly, I combined the 2 program to create the final function isFibOdd(n) with some modifications to make it shorter.
