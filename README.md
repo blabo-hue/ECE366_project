@@ -4,6 +4,7 @@ Member(s):
 Bobby Labonite, blabo@uic.edu
 
 Contributions:
+
 Bobby Labonite
   - coded fib(n) which finds the nth Fibonacci number by following closely the given Figure 1a pseudo-code.
   - coded odd(n) which detects if the given number is odd or even by using division by subtraction. For instance, the given number will be subtracted by 2 until it reaches 0 or 1(O = even, 1 = odd) and store its result.           
