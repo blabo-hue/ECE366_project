@@ -4,9 +4,10 @@ Member(s):
 Bobby Labonite, blabo@uic.edu
 
 Contribution:
-Bobby Labonite - coded fib(n) which finds the nth Fibonacci number by following closely the given Figure 1a pseudo-code.
-               - coded odd(n) which detects if the given number is odd or even by using division by subtraction. For instance, the given number will be subtracted by 2 until it reaches 0 or 1(O = even, 1 = odd) and store its result.
-               - coded isFibOdd(n) by combining the previous 2 function which finds the nth Fibonacci number(fib(n)) and get that result to find if it is odd(1) or even(0).
+Bobby Labonite
+  - coded fib(n) which finds the nth Fibonacci number by following closely the given Figure 1a pseudo-code.
+  - coded odd(n) which detects if the given number is odd or even by using division by subtraction. For instance, the given number will be subtracted by 2 until it reaches 0 or 1(O = even, 1 = odd) and store its result.           
+  - coded isFibOdd(n) by combining the previous 2 function which finds the nth Fibonacci number(fib(n)) and get that result to find if it is odd(1) or even(0).
                
 Github link: https://github.com/blabo-hue/ECE366_project
 
@@ -33,6 +34,7 @@ How to run the program:
     View results in the data segment (comments indicate output location).
 
 Insights:
+
  -The code on finding the nth Fibonacci number closely follows the logic of the pseudo-code by making i = n - 1, and loop until it reaches before 0. 
  -Finding the odd number is much simplier since it just subtracts the given number by 2 and keeps repeating it until it reaches 1 or 0. If it is odd, it will always reach 1 when subtracted by 2 repeatedly before it hits 0, thus I coded a 
   condition to jump to Odd when it reaches the value of 1 or 0 first. 
